@@ -1,14 +1,12 @@
-<style>
+/* Allgemeine Stile */
 body {
+  font-family: Arial, sans-serif;
   background-color: #f8f9fa;
   color: #343a40;
+  margin: 0;
 }
 
-.container {
-  padding-top: 50px;
-}
-
-h1 {
+h1, h2 {
   color: #dc3545;
 }
 
@@ -16,6 +14,7 @@ p {
   color: #6c757d;
 }
 
+/* Buttons */
 .btn-primary {
   background-color: #dc3545;
   border-color: #dc3545;
@@ -26,8 +25,56 @@ p {
   border-color: #bd2130;
 }
 
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Social Media Icons */
+footer .d-flex a {
+  color: #ffffff;
+}
+
+footer .d-flex a:hover {
+  color: #ffc107;
+}
+
+/* Bilder */
 img {
   max-width: 100%;
   height: auto;
 }
-</style>
+
+/* Container */
+.container {
+  padding-top: 50px;
+}
